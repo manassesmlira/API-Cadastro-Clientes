@@ -4,7 +4,7 @@
   "description": "Back e Front de uma API com banco de dados mongoDB, usando prisma, node e nestjs. Para cadastrar clientes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/manassesmlira/API-Cadastro-Clientes#readme",
   "devDependencies": {
+    "@types/node": "^20.12.7",
+    "prisma": "^5.13.0",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "@fastify/cors": "^9.0.1",
+    "@prisma/client": "^5.13.0",
     "fastify": "^4.26.2",
     "tsx": "^4.7.3"
   }
